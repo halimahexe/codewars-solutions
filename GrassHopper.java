@@ -1,7 +1,7 @@
 // GrassHopper getGrade kata
 // https://www.codewars.com/kata/55cbd4ba903825f7970000f5/train/java
 
-public class GrassHopper {
+public class GetGrade {
     public static char getGrade(int s1, int s2, int s3) {
       int average = (s1 + s2 + s3) / 3;
       if (average >= 90) {
