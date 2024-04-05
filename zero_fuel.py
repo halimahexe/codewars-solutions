@@ -2,4 +2,4 @@
 
 def zero_fuel(distance_to_pump, mpg, fuel_left):
     max_distance = mpg * fuel_left
-    return distance_to_pump - max_distance <= 0
+    return distance_to_pump <= max_distance
