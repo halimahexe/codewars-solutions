@@ -3,7 +3,7 @@
 import math
 
 def cook_pancakes(n, m):
-    if n <= m / 2:
+    if n < m:
         return 2
     else:
         return math.ceil((n * 2) / m)
